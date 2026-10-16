@@ -142,7 +142,7 @@ In Breast Cancer, missing a malignant tumour is the worst mistake, so recall on 
 - **Naive Bayes:** very fast and works well on small data, but it assumes features are independent, which fails when features are correlated.
 
 ### Caution
-The test sets are small (45 rows for Wine, 143 for Breast Cancer, 179 for Titanic), so one wrong prediction moves the accuracy by 0.5 to 2 points. This is why the CV numbers are more reliable than a single split.
+The test sets are small (45 rows for Wine, 143 for Breast Cancer, 223 for Titanic), so one wrong prediction moves the accuracy by 0.5 to 2 points. This is why the CV numbers are more reliable than a single split.
 
 ---
 
