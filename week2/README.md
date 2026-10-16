@@ -34,7 +34,7 @@ Comparing three classifiers (Decision Tree, k-Nearest Neighbors, Naive Bayes) on
 |---|---|---|---|---|---|
 | Titanic | Naive Bayes | 0.762 | 0.750 | 0.755 | 0.752 |
 | Titanic | Decision Tree | 0.780 | 0.804 | 0.732 | 0.744 |
-| Titanic | kNN | 0.798 | 0.791 | 0.777 | 0.782 |
+| Titanic | kNN | 0.794 | 0.786 | 0.772 | 0.777 |
 | Wine | Naive Bayes | 0.978 | 0.979 | 0.981 | 0.980 |
 | Wine | Decision Tree | 0.956 | 0.967 | 0.950 | 0.956 |
 | Wine | kNN | 0.933 | 0.929 | 0.935 | 0.931 |
