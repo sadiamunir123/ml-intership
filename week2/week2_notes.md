@@ -124,12 +124,12 @@ All models were run in the same pipeline (imputer, scaler or encoder as needed, 
 
 | Dataset | Naive Bayes | Decision Tree | kNN | Best (CV) |
 |---|---|---|---|---|
-| Titanic | 0.777 | 0.790 | **0.804** | kNN |
+| Titanic | 0.777 | 0.790 | **0.805** | kNN |
 | Wine | **0.966** | 0.894 | 0.949 | Naive Bayes |
 | Breast Cancer | 0.928 | 0.921 | **0.965** | kNN |
 
-### Which model did best, by how much, and why
-- **Titanic: kNN (CV 0.804).** It is ahead of the Decision Tree by 1.4 points and Naive Bayes by 2.7 points. The gaps are small, because Titanic is noisy and has few useful features (sex and class do most of the work), so no model is far better than the others.
+
+- **Titanic: kNN (CV 0.805).** It is ahead of the Decision Tree by 1.5 points and Naive Bayes by 2.8 points.
 - **Wine: Naive Bayes (CV 0.966, test accuracy 0.978).** It is 1.7 points ahead of kNN and 7.2 points ahead of the Decision Tree. The classes are well separated and the features are roughly bell-shaped within each class, which suits Gaussian Naive Bayes. The tree overfits more on this small dataset (178 rows).
 - **Breast Cancer: kNN (CV 0.965, test accuracy 0.979).** It is about 4 points ahead of Naive Bayes (0.928) and Decision Tree (0.921). After scaling, malignant and benign cases form fairly consistent neighbourhoods. Naive Bayes is likely hurt because many features are strongly correlated (radius, perimeter and area), which breaks its independence assumption.
 

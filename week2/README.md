@@ -24,7 +24,7 @@ Comparing three classifiers (Decision Tree, k-Nearest Neighbors, Naive Bayes) on
 
 | Dataset | Naive Bayes | Decision Tree | kNN |
 |---|---|---|---|
-| Titanic | 0.777 | 0.790 | **0.804** |
+| Titanic | 0.777 | 0.790 | **0.805** |
 | Wine | **0.966** | 0.894 | 0.949 |
 | Breast Cancer | 0.928 | 0.921 | **0.965** |
 
