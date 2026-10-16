@@ -1,0 +1,10 @@
+Dataset,Model,Accuracy,Precision,Recall,F1
+Titanic,Naive Bayes,0.762,0.75,0.755,0.752
+Titanic,Decision Tree,0.78,0.804,0.732,0.744
+Titanic,kNN,0.794,0.786,0.772,0.777
+Wine,Naive Bayes,0.978,0.979,0.981,0.98
+Wine,Decision Tree,0.956,0.967,0.95,0.956
+Wine,kNN,0.933,0.929,0.935,0.931
+Breast Cancer,Naive Bayes,0.937,0.938,0.927,0.932
+Breast Cancer,Decision Tree,0.944,0.94,0.94,0.94
+Breast Cancer,kNN,0.979,0.984,0.972,0.977
